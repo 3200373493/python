@@ -3,3 +3,10 @@
 #*Пример:*
 #3 2 4 -> yes
 #3 2 1 -> no
+
+n=int(input('Введите 1-ю сторону: '))
+m=int(input('Введите 2-ю сторону: '))
+k=int(input('Введите кол-во долек: '))
+if k%n == 0 or k%m == 0:
+    print('Yes')
+else: print('No')
